@@ -17,7 +17,7 @@ javac Transformer.java
 
 javac Test.java
 
-## 第四部
+## 第四步
 
 jar cvfm Premain.jar *.class
 
