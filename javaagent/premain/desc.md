@@ -1,9 +1,9 @@
 ## 第一步
 
-javac Premain.java
-javac Test.java
-javac TestMain.java
-javac Transformer.java
+	javac Premain.java
+	javac Test.java
+	javac TestMain.java
+	javac Transformer.java
 
 
 
@@ -15,11 +15,11 @@ javac Transformer.java
 
 修改Test.java为： return 2
 
-javac Test.java
+	javac Test.java
 
 ## 第四步
 
-jar cvfm Premain.jar *.class
+	jar cvfm Premain.jar *.class
 
 修改jar包里的MANIFEST.MF文件：
 
@@ -28,4 +28,4 @@ jar cvfm Premain.jar *.class
 	
 ## 第五部
 
-java -javaagent:Premain.jar TestMain
+	java -javaagent:Premain.jar TestMain
