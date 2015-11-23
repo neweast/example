@@ -12,6 +12,6 @@
 
 ## 第三步
 
-查看 TargetVM 进程号
+查看 TargetVM 进程号 PID，然后运行
 
 	java Test PID
