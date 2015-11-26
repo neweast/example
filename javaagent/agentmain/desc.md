@@ -1,16 +1,17 @@
-## µÚÒ»²½
+## ç¬¬ä¸€æ­¥
 
 	javac AgentMain.java
 	javac Test.java
 	javac TargetVM.java
 
-## µÚ¶ş²½
+## ç¬¬äºŒæ­¥
 
-Æô¶¯TargetVM
+å¯åŠ¨TargetVM
+	
 	java TargetVM
 
-## µÚÈı²½
+## ç¬¬ä¸‰æ­¥
 
-²é¿´ TargetVM ½ø³ÌºÅ
+æŸ¥çœ‹ TargetVM è¿›ç¨‹å· PIDï¼Œç„¶åè¿è¡Œ
 
 	java Test PID
