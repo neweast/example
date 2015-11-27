@@ -24,6 +24,7 @@ public class ChildPriorityClassLoader extends URLClassLoader{
             if (resolve) {
                 resolveClass(c);
             }
+            System.out.println(name);
             return c;
         } catch (Exception e) {
             return super.loadClass(name, resolve);
