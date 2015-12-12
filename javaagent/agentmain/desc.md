@@ -11,6 +11,7 @@
 ## 第二步
 
     jar cvfm Test.jar MANIFEST.MF *.class
+	确认下jar包里的MANIFEST.MF的内容是否生成成功
 
 ## 第三步
 
