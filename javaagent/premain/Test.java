@@ -1,5 +1,9 @@
 public class Test { 
-	 public int getNumber() { 
-	 return 1; 
-    } 
+	 public static void main(String[] args) throws Exception{ 
+		int i = 0;
+		while (i++ < 10) {
+			System.out.println("I'm master!");
+			Thread.sleep(2000);
+		} 
+	 } 
 }
