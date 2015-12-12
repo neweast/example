@@ -10,7 +10,6 @@ public class Test {
             IOException, AgentLoadException, AgentInitializationException {
         VirtualMachine vm = VirtualMachine.attach(args[0]);
         vm.loadAgent("D:\\code\\git\\test2\\Test.jar");
-
+		vm.detach();
     }
-
 }
